@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girlfriends MM</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Stylish&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom-select.css">
+</head>
+
+<body>
+    <nav class="shadow p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <!-- <h3 class="mb-0">🫦</h3> -->
+                <a href="index.html">
+                    <img src="images/girl-friends-logo.jpg" alt="" class="img-fluid" width="50">
+                </a>
+            </div>
+            <h3 class="mb-0 ms-3 d-none d-md-block" style="font-family: 'Stylish'; font-weight: 600;"> - Girlfriends MM - </h3>
+            <div class="d-flex gap-1">
+                <a href="auth.html" class="btn btn-sm btn-theme d-flex align-items-center ">
+                    <!-- <i class="fa-solid fa-arrow-right-to-bracket text-white me-1"></i> -->
+                    <span class=" text-white"> ပင်မ</span>
+                </a>
+                <!-- <a href="" class="btn btn-sm btn-theme d-flex gap-1">
+                    <span>🔎</span> 
+                    <span class="d-none d-md-block text-white">Search</span>
+                </a> -->
+                <!-- <p class="mb-0">Search</p> -->
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="col-md-8 mx-auto">
+            <div class="card p-4">
+                <form action="" method="post">
+                    <div class="">
+                        <div class=" mb-3">
+                            <input type="text" class="form-control py-2" name="name" placeholder="နာမည်">
+                        </div>
+                        
+                        <!-- select city -->
+                        <div class=" mb-3">
+                            <div class="select">
+                                <div class="options ">
+                                    <label for="all" class="option">
+                                        <input type="radio" id="all" name="city" value="all" />
+                                        <span>အားလုံး</span>
+                                    </label>
+
+                                    <label for="uiux" class="option">
+                                        <input type="radio" name="city" id="uiux" />
+                                        <span>လားရှိုး</span>
+                                    </label>
+
+                                    <label for="frontend" class="option">
+                                        <input type="radio" id="frontend" name="city" />
+                                        <span>ရန်ကုန်
+                                        </span>
+                                    </label>
+
+                                    <label for="backend" class="option">
+                                        <input type="radio" id="backend" name="city" />
+                                        <span>မန္တလေး</span>
+                                    </label>
+
+                                </div>
+
+                                <div class="selected">မြို့များ</div>
+                            </div>
+                        </div>
+
+                        <!-- select price -->
+                        <div class=" mb-3">
+                            <div class="select_price">
+                                <div class="price_options">
+                                    <label for="all_price" class="price_option">
+                                        <input type="radio" id="all_price" name="price" value="all" />
+                                        <span>အားလုံး</span>
+                                    </label>
+
+                                    <label for="150,000-250,000" class="price_option">
+                                        <input type="radio" name="price" id="150,000-250,000" />
+                                        <span>တစ်သိန်းခွဲ (မှ) - နှစ်သိန်းခွဲ (အထိ)</span>
+                                    </label>
+
+                                    <label for="250,000-350,000" class="price_option">
+                                        <input type="radio" id="frontend" name="price" />
+                                        <span>နှစ်သိန်းခွဲ (မှ) - သုံးသိန်းခွဲ (အထိ)</span>
+                                    </label>
+
+                                    <label for="350,000-450,000" class="price_option">
+                                        <input type="radio" id="350,000-450,000" name="price" />
+                                        <span>သုံးသိန်းခွဲ  (မှ)  - လေးသိန်းခွဲ (အထိ)</span>
+                                    </label>
+
+                                </div>
+
+                                <div class="selected_price">စျေးနှုန်း</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100">
+                        <button type="submit" class="w-100 btn btn-theme text-white">ရှာဖွေရန်</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="text-center bg-black p-4 text-white  fixed-bottom">
+        Copyright ©2024 Girlfriends-MM. All rights reserved.
+    </footer>
+
+
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+
+    <script src="custom-select.js"></script>
+
+   
+</body>
+
+</html>
