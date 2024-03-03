@@ -59,7 +59,7 @@ input[type="radio"] {
   padding: 8px;
   opacity: 0;
   border: 1px solid #ccc;
-z-index: 99;
+z-index: 9999;
 }
 
 .options.active, .price_options.active {
