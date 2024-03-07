@@ -1,6 +1,9 @@
 .btn-theme, .btn-theme:hover {
     background-color: #E9527D;
 }
+.text-theme {
+    color: #E9527D;
+}
 .admin-link {
     color: #E9527D ;
 }
